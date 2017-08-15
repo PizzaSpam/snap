@@ -1,14 +1,19 @@
 {
 	"name": "PizzaSpam/Snap",
+	"description": "My first Composer project",
+	"authors": [
+		{
+			"name": "PizzaSpam",
+			"email": "your@name.com"
+		}
+    ],
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^5.3.9 || ^7.0",
+	},
 	"autoload": {
 		"psr-0" : {
 			"PizzaSpam\\Snap" : "src"
 		}
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/PizzaSpam/snap"
-		}
-	],
 }
