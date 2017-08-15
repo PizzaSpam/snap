@@ -1,5 +1,5 @@
 {
-	"name": "PizzaSpam/Snap",
+	"name": "pizzaspam/snap",
 	"description": "My first Composer project",
 	"authors": [
 		{
@@ -13,13 +13,7 @@
 	},
 	"autoload": {
 		"psr-0" : {
-			"PizzaSpam\\Snap" : "src"
+			"test" : "src"
 		}
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/PizzaSpam/Snap"
-		}
-	],
 }
