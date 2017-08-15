@@ -12,8 +12,8 @@
 		"php": "^5.3.9 || ^7.0",
 	},
 	"autoload": {
-		"psr-0" : {
-			"test" : "src"
+		"psr-4" : {
+			"test" : "src/PizzaSpam/snap"
 		}
 	},
 }
