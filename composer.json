@@ -16,4 +16,10 @@
 			"PizzaSpam\\Snap" : "src"
 		}
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/PizzaSpam/Snap"
+		}
+	],
 }
